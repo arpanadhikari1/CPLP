@@ -6,7 +6,7 @@ In 1998, the Adventure Works Cycles company collected a large volume of data abo
 - Building a classification model **predicting** likelihood of a customer **to purchase a bike**
 - Building a regression model **predicting** customer's **monthly spending** with the company
 ## Files description
-### Datasets
+### Data
 The data consists of three files, containing data that was collected on January 1st 
 
 #### AdvWorksCusts.csv
@@ -61,7 +61,7 @@ This file is similar to AdvWorksCuts.csv consist of data on which our predictive
 This file contains the source code for analyzing customer's data, building predictive  models(regression and classification model) and evaluating accuracy of that models
 #### Test_code.ipynb
 This file contains the source code for predicting customer's bike purchasing likelihood and monthly spending with the company on testing data(AW_Test.csv) and storing it in a file(Result.csv)
-### Model
+### Models
 #### class_model.sav
 This file contains the newly build classification model for predicting bike purchasing likelihood of customers after executing the Train_code
 #### reg_model.sav
@@ -70,7 +70,7 @@ This file contains the newly build regression model for predicting monthly spend
 #### Result.csv
 This file contains the customers data along with the prediction on testing data(AW_Test.csv).Note that last two columns are predicted value in this file. 
 ## System Requirements
-- **Language** : Python 3.6
+- **Language** : Python 3.7
 - **Tools used** : Pandas, Numpy, Scikit learn, Seaborne, Matplotlib
 - **Platform used** : Jupyter notebook
 ## Acknowledgement 
