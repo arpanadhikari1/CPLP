@@ -57,9 +57,9 @@ This file contains the sales data for existing customers, consisting of the foll
 #### AW_Test.csv
 This file is similar to AdvWorksCuts.csv consist of data on which our predictive model will be tested
 ### Source code
-#### Train_code.ipynb
+#### Train_code.py
 This file contains the source code for analyzing customer's data, building predictive  models(regression and classification model) and evaluating accuracy of that models
-#### Test_code.ipynb
+#### Test_code.py
 This file contains the source code for predicting customer's bike purchasing likelihood and monthly spending with the company on testing data(AW_Test.csv) and storing it in a file(Result.csv)
 ### Models
 #### class_model.sav
