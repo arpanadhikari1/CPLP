@@ -72,6 +72,6 @@ This file contains the customers data along with the prediction on testing data(
 ## System Requirements
 - **Language** : Python 3.7
 - **Tools used** : Pandas, Numpy, Scikit learn, Seaborne, Matplotlib
-- **Platform used** : Jupyter notebook
+- **Platform used** : Spyder 3
 ## Acknowledgement 
 This project is the final exam of the course [Principles of Machine Learning: Python Edition](https://www.edx.org/course/principles-of-machine-learning-python-edition-4) and the datasets are downloaded from [here](https://github.com/MicrosoftLearning/Principles-of-Machine-Learning-Python/tree/master/Final%20Exam)
