@@ -40,10 +40,10 @@ def preperation(data):
 
 features=preperation(features)
 
-reg_model=joblib.load('reg_model.sav')
+reg_model=joblib.load('Models/reg_model.sav')
 test_data['Avarage Monthly Spending']=reg_model.predict(features)
 
-class_model=joblib.load('class_model.sav')
+class_model=joblib.load('Models/class_model.sav')
 test_data['Bike Buyer']=class_model.predict(features)
 
 test_data.to_csv('Result.csv')
